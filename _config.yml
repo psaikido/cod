@@ -1,0 +1,28 @@
+title: Cult of Dusty
+email: hughie@carrollonline.co.uk
+description: >- 
+  Title pages for use by Dusty Smith on his show https://www.youtube.com/user/CultOfDusty
+baseurl: ""
+url: "" 
+github_username:  psaikido
+favicon: favicon.ico
+permalink: /:path/:basename:output_ext
+github_username: psaikido
+
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+plugins:
+    - jekyll-bootstrap-sass
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+exclude:
+    - README.md
+    - Gemfile
+    - Gemfile.lock
+    - changelog.md
+    - "*.Rmd"

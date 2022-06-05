@@ -1,0 +1,74 @@
+$top-height: 364px;
+
+@font-face { font-family: 'Transformers';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Transformers'), url('/assets/Transformers.ttf') format('truetype');
+}
+
+html, body {
+    background-color: $main-bkg;
+    margin: 0;
+    padding: 0;
+
+}
+
+a:-webkit-any-link {
+    color: $link;
+}
+
+.header {
+    width: 100%;
+    height: 314px;
+    background: $main-bkg url(/assets/img/cod-banner-small.jpg) no-repeat center;
+    background-size: 600px 70%;
+    position: fixed;
+    top: 0;
+
+    nav {
+        margin-top: 0px;
+        text-align: center;
+        background-color: $sub-bkg;
+        width: 100%;
+        height: 23px;
+
+        a,
+        a:link, 
+        a:visited,
+        a:focus,
+        a:hover, 
+        a:active {
+            color: $link;
+        }
+    }
+}
+
+.sections {
+    margin-top: $top-height;
+    text-align: center;
+
+    .section {
+        scroll-margin: $top-height;
+        max-width: 600px;
+        height: 1000px;
+        margin: 0 auto;
+        font-family: 'Transformers';
+        font-weight: bold;
+        font-size: 62px;
+        color: $heading;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: $sub-bkg;
+    color: $link;
+    width: 100%;
+    height: 25px;
+    padding-top: 4px;
+    font-size: 12px;
+    text-align: center;
+}

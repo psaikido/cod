@@ -1,0 +1,17 @@
+description: main menu
+
+menu:
+    - title: welcome to the Dusty Smith show
+      id: home
+
+    - title: religious bullshit!
+      id: relig
+
+    - title: trash world! 
+      id: trash
+
+    - title: chud watch!
+      id: chud
+
+    - title: beyooond parody!
+      id: parody

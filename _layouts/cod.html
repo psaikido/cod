@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cult of Dusty</title>
+        <link rel="stylesheet" href="assets/css/cod.css">
+    </head>
+    <body>
+        <div class="header">
+            <nav>
+                {% for item in site.data.nav.menu %}
+                    <a href="#{{ item.id }}">{{ item.id }}</a>
+                {% endfor %}
+            </nav>
+        </div>
+
+        <div class="sections" >
+            {% for item in site.data.nav.menu %}
+            <div class="section" id="{{ item.id }}">
+                {{ item.title }}
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="footer">
+            site by <a href="https://hugle.co.uk">hugle</a>
+        </div>
+    </body>
+</html>
