@@ -2,8 +2,8 @@ title: Cult of Dusty
 email: hughie@carrollonline.co.uk
 description: >- 
   Title pages for use by Dusty Smith on his show https://www.youtube.com/user/CultOfDusty
-baseurl: "/"
-url: "https://psaikido.github.io/cod" 
+baseurl: "/cod"
+url: "https://psaikido.github.io" 
 github_username:  psaikido
 favicon: favicon.ico
 permalink: /:path/:basename:output_ext
