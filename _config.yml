@@ -3,7 +3,7 @@ email: hughie@carrollonline.co.uk
 description: >- 
   Title pages for use by Dusty Smith on his show https://www.youtube.com/user/CultOfDusty
 baseurl: ""
-url: "" 
+url: "https://psaikido.github.io/cod/" 
 github_username:  psaikido
 favicon: favicon.ico
 permalink: /:path/:basename:output_ext
